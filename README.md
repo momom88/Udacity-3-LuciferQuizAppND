@@ -9,4 +9,4 @@ This is the third project of the Google Developer Challenge Scholarship .The tas
 * Styles uses : Overriding default styles, Overriding default attributes, Style heritage
 * Use of OnClickListener
  
- <img src="/screenshots/Screenshot1.png" width="363" height="564"><img src="/screenshots/Screenshot2.png" width="363" height="564"><img src="/screenshots/Screenshot3.png" width="363" height="564">
+ <img src="/screenshots/Screenshot1.png" width="363" height="564"><img src="/screenshots/Screenshot2.png" width="363" height="564">
