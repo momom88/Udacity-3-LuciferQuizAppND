@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
     String result;
     int points;
     private String mUser;
-    private RadioButton questions1_a, questions1_b, questions1_c, questions1_d;
-    private RadioButton questions2_a, questions2_b, questions2_c, questions2_d;
-    private RadioButton questions3_a, questions3_b, questions3_c, questions3_d;
-    private RadioButton questions4_a, questions4_b, questions4_c, questions4_d;
-    private CheckBox questions5_a, questions5_b, questions5_c, questions5_d;
+    private RadioButton questions1ALosAngelos, questions1_b, questions1_c, questions1_d;
+    private RadioButton questions2ALux, questions2_b, questions2_c, questions2_d;
+    private RadioButton questions3_a, questions3_b, questions3CPiano, questions3_d;
+    private RadioButton questions4_a, questions4BWings, questions4_c, questions4_d;
+    private CheckBox questions5AMazikeen, questions5BMmazikeen, questions5CBazikeen, questions5DBazikeen;
     private EditText questions6;
 
     @Override
@@ -53,29 +53,29 @@ public class MainActivity extends AppCompatActivity {
      */
     public void ShowScore(View view) {
 
-        questions1_a = findViewById(R.id.questions1_a);
-        boolean isLosAngele = questions1_a.isChecked();
+        questions1ALosAngelos = findViewById(R.id.checkQuestion1ALosAngeles);
+        boolean isLosAngele = questions1ALosAngelos.isChecked();
 
-        questions2_a = findViewById(R.id.questions2_a);
-        boolean isLux = questions2_a.isChecked();
+        questions2ALux = findViewById(R.id.checkQuestion2ALux);
+        boolean isLux = questions2ALux.isChecked();
 
-        questions3_c = findViewById(R.id.questions3_c);
-        boolean isPiano = questions3_c.isChecked();
+        questions3CPiano = findViewById(R.id.checkQuestion3CPiano);
+        boolean isPiano = questions3CPiano.isChecked();
 
-        questions4_b = findViewById(R.id.questions4_b);
-        boolean isWings = questions4_b.isChecked();
+        questions4BWings = findViewById(R.id.checkQuestion4BWings);
+        boolean isWings = questions4BWings.isChecked();
 
-        questions5_a = findViewById(R.id.questions5_a);
-        boolean isMazekChecked = questions5_a.isChecked();
+        questions5AMazikeen = findViewById(R.id.checkQuestion5AMazikeen);
+        boolean isMazekChecked = questions5AMazikeen.isChecked();
 
-        questions5_b = findViewById(R.id.questions5_b);
-        boolean isMazek1Checked = questions5_b.isChecked();
+        questions5BMmazikeen = findViewById(R.id.checkQuestion5BMazikeen);
+        boolean isMazek1Checked = questions5BMmazikeen.isChecked();
 
-        questions5_c = findViewById(R.id.questions5_c);
-        boolean isBuzeChecked = questions5_c.isChecked();
+        questions5CBazikeen = findViewById(R.id.checkQuestion5CBazikeen);
+        boolean isBuzeChecked = questions5CBazikeen.isChecked();
 
-        questions5_d = findViewById(R.id.questions5_d);
-        boolean isBuze1Checked = questions5_d.isChecked();
+        questions5DBazikeen = findViewById(R.id.checkQuestion5DBazikeen);
+        boolean isBuze1Checked = questions5DBazikeen.isChecked();
 
         questions6 = findViewById(R.id.questions6);
         String answerNum = questions6.getText().toString();
@@ -115,10 +115,10 @@ public class MainActivity extends AppCompatActivity {
      * This method is count our score
      */
 
-    public int calculateScore(boolean isLosAngeles, boolean isLux, boolean isPiano,
-                              boolean isWings, boolean isMazek1Checked, boolean isMazekChecked,
-                              boolean isBuzeChecked, boolean isBuze1Checked,
-                              boolean isAnswerNumber) {
+    private int calculateScore(boolean isLosAngeles, boolean isLux, boolean isPiano,
+                               boolean isWings, boolean isMazek1Checked, boolean isMazekChecked,
+                               boolean isBuzeChecked, boolean isBuze1Checked,
+                               boolean isAnswerNumber) {
         int points = 0;
         if (isLosAngeles) {
             points += 1;

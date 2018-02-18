@@ -36,7 +36,7 @@
                 android:theme="@style/RadioButtonStyle">
 
                 <RadioButton
-                    android:id="@+id/questions1_a"
+                    android:id="@+id/checkQuestion1ALosAngeles"
                     style="@style/answer"
                     android:text="@string/losangeles" />
 
@@ -70,7 +70,7 @@
                 android:theme="@style/RadioButtonStyle">
 
                 <RadioButton
-                    android:id="@+id/questions2_a"
+                    android:id="@+id/checkQuestion2ALux"
                     style="@style/answer"
                     android:text="@string/lux" />
 
@@ -116,7 +116,7 @@
                     android:text="@string/bass" />
 
                 <RadioButton
-                    android:id="@+id/questions3_c"
+                    android:id="@+id/checkQuestion3CPiano"
                     style="@style/answer"
                     android:text="@string/piano" />
 
@@ -140,12 +140,12 @@
                 android:theme="@style/RadioButtonStyle">
 
                 <RadioButton
-                    android:id="@+id/questions4_a"
+                    android:id="@+id/questions4_a_"
                     style="@style/answer"
                     android:text="@string/head" />
 
                 <RadioButton
-                    android:id="@+id/questions4_b"
+                    android:id="@+id/checkQuestion4BWings"
                     style="@style/answer"
                     android:text="@string/wings" />
 
@@ -167,7 +167,7 @@
                 android:text="@string/demon" />
 
             <CheckBox
-                android:id="@+id/questions5_a"
+                android:id="@+id/checkQuestion5AMazikeen"
                 style="@style/answer"
                 android:paddingLeft="24dp"
                 android:text="@string/maze"
@@ -175,7 +175,7 @@
                 android:theme="@style/RadioButtonStyle" />
 
             <CheckBox
-                android:id="@+id/questions5_b"
+                android:id="@+id/checkQuestion5BMazikeen"
                 style="@style/answer"
                 android:paddingLeft="24dp"
                 android:text="@string/maze"
@@ -183,7 +183,7 @@
                 android:theme="@style/RadioButtonStyle" />
 
             <CheckBox
-                android:id="@+id/questions5_c"
+                android:id="@+id/checkQuestion5CBazikeen"
                 style="@style/answer"
                 android:paddingLeft="24dp"
                 android:text="@string/buze"
@@ -191,7 +191,7 @@
                 android:theme="@style/RadioButtonStyle" />
 
             <CheckBox
-                android:id="@+id/questions5_d"
+                android:id="@+id/checkQuestion5DBazikeen"
                 style="@style/answer"
                 android:layout_marginBottom="30dp"
                 android:paddingLeft="24dp"
@@ -207,8 +207,8 @@
             <EditText
                 android:id="@+id/questions6"
                 style="@style/answer"
-                android:inputType="number"
                 android:hint="@string/numbers"
+                android:inputType="number"
                 android:textColorHint="#808080"
                 android:theme="@style/RadioButtonStyle" />
 
@@ -220,18 +220,18 @@
                 android:background="#840c0d"
                 android:onClick="ShowScore"
                 android:text="@string/submit"
-                android:textSize="22dp" />
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="10dp"
                 android:background="#840c0d"
                 android:onClick="reset"
                 android:text="@string/reset"
-                android:textSize="22dp" />
+                android:textSize="22sp" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
