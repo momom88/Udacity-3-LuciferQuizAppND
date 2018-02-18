@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:src="@drawable/lucifer2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/place"
+                style="@style/questions"
+                android:text="@string/place" />
+
+            <RadioGroup
+                android:id="@+id/questions1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:theme="@style/RadioButtonStyle">
+
+                <RadioButton
+                    android:id="@+id/questions1_a"
+                    style="@style/answer"
+                    android:text="@string/losangeles" />
+
+                <RadioButton
+                    android:id="@+id/questions1_b"
+                    style="@style/answer"
+                    android:text="@string/london" />
+
+                <RadioButton
+                    android:id="@+id/questions1_c"
+                    style="@style/answer"
+                    android:text="@string/newyork" />
+
+                <RadioButton
+                    android:id="@+id/questions1_d"
+                    style="@style/answer"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/prague" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/nightclub"
+                style="@style/questions"
+                android:text="@string/nightclub" />
+
+            <RadioGroup
+                android:id="@+id/questions2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:theme="@style/RadioButtonStyle">
+
+                <RadioButton
+                    android:id="@+id/questions2_a"
+                    style="@style/answer"
+                    android:text="@string/lux" />
+
+                <RadioButton
+                    android:id="@+id/questions2_b"
+                    style="@style/answer"
+                    android:text="@string/lucisplace" />
+
+                <RadioButton
+                    android:id="@+id/questions2_c"
+                    style="@style/answer"
+                    android:text="@string/hell" />
+
+                <RadioButton
+                    android:id="@+id/questions2_d"
+                    style="@style/answer"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/eden" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/instruments"
+                style="@style/questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instrument" />
+
+            <RadioGroup
+                android:id="@+id/questions3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:theme="@style/RadioButtonStyle">
+
+                <RadioButton
+                    android:id="@+id/questions3_a"
+                    style="@style/answer"
+                    android:text="@string/guitar" />
+
+                <RadioButton
+                    android:id="@+id/questions3_b"
+                    style="@style/answer"
+                    android:text="@string/bass" />
+
+                <RadioButton
+                    android:id="@+id/questions3_c"
+                    style="@style/answer"
+                    android:text="@string/piano" />
+
+                <RadioButton
+                    android:id="@+id/questions3_d"
+                    style="@style/answer"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/hesings" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/reveals"
+                style="@style/questions"
+                android:text="@string/reveals" />
+
+            <RadioGroup
+                android:id="@+id/questions4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:theme="@style/RadioButtonStyle">
+
+                <RadioButton
+                    android:id="@+id/questions4_a"
+                    style="@style/answer"
+                    android:text="@string/head" />
+
+                <RadioButton
+                    android:id="@+id/questions4_b"
+                    style="@style/answer"
+                    android:text="@string/wings" />
+
+                <RadioButton
+                    android:id="@+id/questions4_c"
+                    style="@style/answer"
+                    android:text="@string/butt" />
+
+                <RadioButton
+                    android:id="@+id/questions4_d"
+                    style="@style/answer"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/horns" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/demon"
+                style="@style/questions"
+                android:text="@string/demon" />
+
+            <CheckBox
+                android:id="@+id/questions5_a"
+                style="@style/answer"
+                android:paddingLeft="24dp"
+                android:text="@string/maze"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:theme="@style/RadioButtonStyle" />
+
+            <CheckBox
+                android:id="@+id/questions5_b"
+                style="@style/answer"
+                android:paddingLeft="24dp"
+                android:text="@string/maze"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:theme="@style/RadioButtonStyle" />
+
+            <CheckBox
+                android:id="@+id/questions5_c"
+                style="@style/answer"
+                android:paddingLeft="24dp"
+                android:text="@string/buze"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:theme="@style/RadioButtonStyle" />
+
+            <CheckBox
+                android:id="@+id/questions5_d"
+                style="@style/answer"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="24dp"
+                android:text="@string/buze"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:theme="@style/RadioButtonStyle" />
+
+            <TextView
+                android:id="@+id/year"
+                style="@style/questions"
+                android:text="@string/years" />
+
+            <EditText
+                android:id="@+id/questions6"
+                style="@style/answer"
+                android:inputType="number"
+                android:hint="@string/numbers"
+                android:textColorHint="#808080"
+                android:theme="@style/RadioButtonStyle" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#840c0d"
+                android:onClick="ShowScore"
+                android:text="@string/submit"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#840c0d"
+                android:onClick="reset"
+                android:text="@string/reset"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

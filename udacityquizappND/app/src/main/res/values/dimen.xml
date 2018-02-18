@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="outside_box">10dp</dimen>
+    <dimen name="between_questions">5dp</dimen>
+    <dimen name="below_image">20dp</dimen>
+    <dimen name="edit_text">10dp</dimen>
+    <dimen name="question_answers">10dp</dimen>
+    <dimen name="layout_marginBottom">20dp</dimen>
+    <dimen name="layout_marginLeft">8dp</dimen>
+    <dimen name="layout_marginTop">20dp</dimen>
+</resources>
+

@@ -1,0 +1,51 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+
+    <style name="RadioButtonStyle" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#840c0d</item>
+        <item name="android:textColorSecondary">#840c0d</item>
+    </style>
+
+    <style name="questions">
+        <item name="android:padding">@dimen/question_answers</item>
+        <item name="android:layout_marginLeft">@dimen/question_answers</item>
+        <item name="android:layout_marginRight">@dimen/question_answers</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F4F6F6</item>
+        <item name="android:background">#840c0d</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="questions1">
+        <item name="android:layout_marginLeft">@dimen/question_answers</item>
+        <item name="android:layout_marginRight">@dimen/question_answers</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F4F6F6</item>
+        <item name="android:background">#607D8B</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="answer">
+        <item name="android:layout_marginLeft">@dimen/question_answers</item>
+        <item name="android:layout_marginRight">@dimen/question_answers</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F4F6F6</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="anwercu">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F4F6F6</item>
+
+    </style>
+
+
+</resources>

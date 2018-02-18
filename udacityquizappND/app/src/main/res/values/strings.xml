@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quiz Lucifer</string>
+    <string name="hello">Lucifer Quiz</string>
+    <string name="results">Correct answers to questions:</string>
+    <string name="place">1. First things first -- in what city does the show take place?</string>
+    <string name="losangeles">Los Angeles</string>
+    <string name="london">London</string>
+    <string name="newyork">New York</string>
+    <string name="prague">Prague</string>
+    <string name="nightclub">2. What is the name of Lucifer’s nightclub?</string>
+    <string name="lucisplace">Luci\'s Place</string>
+    <string name="hell">Hell on Earth</string>
+    <string name="lux">Lux</string>
+    <string name="eden">Eden</string>
+    <string name="instrument">3. What musical instrument is Lucifer often seen playing?</string>
+    <string name="guitar">Guitar</string>
+    <string name="bass">Bass</string>
+    <string name="piano">Piano</string>
+    <string name="hesings">hesings</string>
+    <string name="reveals">4. Lucifer has a large scar that reveals part of his angelic nature. What is it?</string>
+    <string name="head">A halo around his head</string>
+    <string name="wings">Wings on his back</string>
+    <string name="butt">A tail  on his butt</string>
+    <string name="horns">Horns on his forehead</string>
+    <string name="submit">Result</string>
+    <string name="demon">5. Lucifer is never far from his demon friend, Maze. What is "Maze" short for?</string>
+    <string name="maze">Mazikeen</string>
+    <string name="buze">Bazikeen</string>
+    <string name="years">6. How long before the events of the first episode had Lucifer and Maze been in L.A.?</string>
+    <string name="numbers">only numbers(1 to 5) Years.</string>
+    <string name="result1">Your score is %d / 7. \You are perfect.\</string>
+    <string name="result2">Your score is %d / 7. \you are good.\</string>
+    <string name="result3">Your score is %d / 7. \it is bad.\</string>
+    <string name="result4">Your score is %d / 7. \It would have wanted some answers right.\</string>
+    <string name="reset">Reset</string>
+</resources>
