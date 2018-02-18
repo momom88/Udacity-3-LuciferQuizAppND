@@ -1,6 +1,6 @@
 # Udacity-3-LuciferQuizAppND
 
-This is the third project of the Google Developer Challenge Scholarship .The task given was to create a quiz app. I chose lucifer serial
+This is the third project of the Google Developer Challenge Scholarship/Android Basics Nanodegree by Google .The task given was to create a quiz app. I chose lucifer serial
 
 * Use of ScrollView
 * Rotation of an ImageView
